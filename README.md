@@ -31,3 +31,11 @@ Welcome to the **99SellerBuddy** repository! This is a demo project for an e-com
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/yourusername/99SellerBuddy.git
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+Contact
+For any inquiries or feedback, please contact me at:
+
+Email: itsnishant470@gmail.com
+GitHub: itsnishant4
