@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        .toggle-container {
+            display: inline-block;
+            position: relative;
+            width: 60px;
+            height: 30px;
+        }
+
+        .toggle-input {
+            display: none;
+        }
+
+        .toggle-slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: green;
+            border-radius: 15px;
+            transition: 0.4s;
+        }
+
+        .toggle-slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            border-radius: 50%;
+            transition: 0.4s;
+        }
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .toggle-container {
+            display: inline-block;
+            position: relative;
+            width: 60px;
+            height: 30px;
+        }
+
+        .toggle-input {
+            display: none;
+        }
+
+        .toggle-slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            border-radius: 15px;
+            transition: 0.4s;
+        }
+
+        .toggle-slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            border-radius: 50%;
+            transition: 0.4s;
+        }
+
+        .toggle-input:checked + .toggle-slider {
+            background-color: #2196F3;
+        }
+
+        .toggle-input:checked + .toggle-slider:before {
+            transform: translateX(30px);
+        }
+    </style>
+</head>
+<body>
+    <div class="toggle-container">
+        <input type="checkbox" class="toggle-input" id="myToggle">
+        <label class="toggle-slider" for="myToggle"></label>
+    </div>
+</body>
+</html>
+
+    </style>
+</head>
+<body>
+    <div class="toggle-container">
+        <input type="checkbox" class="toggle-input" id="myToggle">
+        <label class="toggle-slider" for="myToggle"></label>
+    </div>
+</body>
+</html>
